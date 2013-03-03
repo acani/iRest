@@ -1,12 +1,13 @@
 #import <Cocoa/Cocoa.h>
+#import "AIRApplication.h"
 #import "AIRAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        NSApplication *application = [NSApplication sharedApplication];
-        [application setDelegate:[[AIRAppDelegate alloc] init]];
-        [application run];
+        [AIRApplication sharedApplication]; // initializes NSAPP
+        [NSApp setDelegate:[[AIRAppDelegate alloc] init]];
+        [NSApp run];
     }
     return 0;
 }
