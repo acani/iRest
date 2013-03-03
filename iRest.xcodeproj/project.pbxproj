@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D2B06D6416E371310072E4CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D6316E371310072E4CD /* Cocoa.framework */; };
-		D2B06D7016E371310072E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D6F16E371310072E4CD /* main.m */; };
+		D2B06D7016E371310072E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D6F16E371310072E4CD /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D2B06D7716E371310072E4CD /* AIRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D7616E371310072E4CD /* AIRAppDelegate.m */; };
-		D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D7816E371310072E4CD /* MainMenu.xib */; };
 		D2B06D8216E371310072E4CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D8116E371310072E4CD /* SenTestingKit.framework */; };
 		D2B06D8316E371310072E4CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D6316E371310072E4CD /* Cocoa.framework */; };
 		D2B06D8E16E371310072E4CD /* iRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D8D16E371310072E4CD /* iRestTests.m */; };
@@ -37,7 +36,6 @@
 		D2B06D7116E371310072E4CD /* iRest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRest-Prefix.pch"; sourceTree = "<group>"; };
 		D2B06D7516E371310072E4CD /* AIRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRAppDelegate.h; sourceTree = "<group>"; };
 		D2B06D7616E371310072E4CD /* AIRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRAppDelegate.m; sourceTree = "<group>"; };
-		D2B06D7916E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D2B06D8016E371310072E4CD /* iRestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B06D8116E371310072E4CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2B06D8816E371310072E4CD /* iRestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRestTests-Info.plist"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			children = (
 				D2B06D7516E371310072E4CD /* AIRAppDelegate.h */,
 				D2B06D7616E371310072E4CD /* AIRAppDelegate.m */,
-				D2B06D7816E371310072E4CD /* MainMenu.xib */,
 				D2B06D6A16E371310072E4CD /* Supporting Files */,
 			);
 			path = iRest;
@@ -216,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,17 +268,6 @@
 			targetProxy = D2B06D8416E371310072E4CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D2B06D7816E371310072E4CD /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2B06D7916E371310072E4CD /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2B06D8F16E371310072E4CD /* Debug */ = {
