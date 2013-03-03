@@ -10,7 +10,6 @@
 		D2B06D6416E371310072E4CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D6316E371310072E4CD /* Cocoa.framework */; };
 		D2B06D6E16E371310072E4CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D6C16E371310072E4CD /* InfoPlist.strings */; };
 		D2B06D7016E371310072E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D6F16E371310072E4CD /* main.m */; };
-		D2B06D7416E371310072E4CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D7216E371310072E4CD /* Credits.rtf */; };
 		D2B06D7716E371310072E4CD /* AIRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D7616E371310072E4CD /* AIRAppDelegate.m */; };
 		D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D7816E371310072E4CD /* MainMenu.xib */; };
 		D2B06D8216E371310072E4CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D8116E371310072E4CD /* SenTestingKit.framework */; };
@@ -39,7 +38,6 @@
 		D2B06D6D16E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2B06D6F16E371310072E4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2B06D7116E371310072E4CD /* iRest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRest-Prefix.pch"; sourceTree = "<group>"; };
-		D2B06D7316E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D2B06D7516E371310072E4CD /* AIRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRAppDelegate.h; sourceTree = "<group>"; };
 		D2B06D7616E371310072E4CD /* AIRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRAppDelegate.m; sourceTree = "<group>"; };
 		D2B06D7916E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				D2B06D6C16E371310072E4CD /* InfoPlist.strings */,
 				D2B06D6F16E371310072E4CD /* main.m */,
 				D2B06D7116E371310072E4CD /* iRest-Prefix.pch */,
-				D2B06D7216E371310072E4CD /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -226,7 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B06D6E16E371310072E4CD /* InfoPlist.strings in Resources */,
-				D2B06D7416E371310072E4CD /* Credits.rtf in Resources */,
 				D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +288,6 @@
 				D2B06D6D16E371310072E4CD /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D2B06D7216E371310072E4CD /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2B06D7316E371310072E4CD /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		D2B06D7816E371310072E4CD /* MainMenu.xib */ = {
@@ -453,6 +441,7 @@
 				D2B06D9316E371310072E4CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2B06D9416E371310072E4CD /* Build configuration list for PBXNativeTarget "iRestTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +450,7 @@
 				D2B06D9616E371310072E4CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
