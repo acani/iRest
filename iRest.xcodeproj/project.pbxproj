@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B06D6416E371310072E4CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D6316E371310072E4CD /* Cocoa.framework */; };
+		D2B06D6E16E371310072E4CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D6C16E371310072E4CD /* InfoPlist.strings */; };
+		D2B06D7016E371310072E4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D6F16E371310072E4CD /* main.m */; };
+		D2B06D7416E371310072E4CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D7216E371310072E4CD /* Credits.rtf */; };
+		D2B06D7716E371310072E4CD /* AIRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D7616E371310072E4CD /* AIRAppDelegate.m */; };
+		D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D7816E371310072E4CD /* MainMenu.xib */; };
+		D2B06D8216E371310072E4CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D8116E371310072E4CD /* SenTestingKit.framework */; };
+		D2B06D8316E371310072E4CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B06D6316E371310072E4CD /* Cocoa.framework */; };
+		D2B06D8B16E371310072E4CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B06D8916E371310072E4CD /* InfoPlist.strings */; };
+		D2B06D8E16E371310072E4CD /* iRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B06D8D16E371310072E4CD /* iRestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B06D8416E371310072E4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B06D5816E371310072E4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B06D5F16E371310072E4CD;
+			remoteInfo = iRest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2B06D6016E371310072E4CD /* iRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B06D6316E371310072E4CD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D2B06D6616E371310072E4CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D2B06D6716E371310072E4CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2B06D6816E371310072E4CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2B06D6B16E371310072E4CD /* iRest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRest-Info.plist"; sourceTree = "<group>"; };
+		D2B06D6D16E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2B06D6F16E371310072E4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2B06D7116E371310072E4CD /* iRest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRest-Prefix.pch"; sourceTree = "<group>"; };
+		D2B06D7316E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D2B06D7516E371310072E4CD /* AIRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIRAppDelegate.h; sourceTree = "<group>"; };
+		D2B06D7616E371310072E4CD /* AIRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIRAppDelegate.m; sourceTree = "<group>"; };
+		D2B06D7916E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2B06D8016E371310072E4CD /* iRestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B06D8116E371310072E4CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2B06D8816E371310072E4CD /* iRestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRestTests-Info.plist"; sourceTree = "<group>"; };
+		D2B06D8A16E371310072E4CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2B06D8C16E371310072E4CD /* iRestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRestTests.h; sourceTree = "<group>"; };
+		D2B06D8D16E371310072E4CD /* iRestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B06D5D16E371310072E4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D6416E371310072E4CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B06D7C16E371310072E4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D8216E371310072E4CD /* SenTestingKit.framework in Frameworks */,
+				D2B06D8316E371310072E4CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B06D5716E371310072E4CD = {
+			isa = PBXGroup;
+			children = (
+				D2B06D6916E371310072E4CD /* iRest */,
+				D2B06D8616E371310072E4CD /* iRestTests */,
+				D2B06D6216E371310072E4CD /* Frameworks */,
+				D2B06D6116E371310072E4CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B06D6116E371310072E4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D6016E371310072E4CD /* iRest.app */,
+				D2B06D8016E371310072E4CD /* iRestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B06D6216E371310072E4CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D6316E371310072E4CD /* Cocoa.framework */,
+				D2B06D8116E371310072E4CD /* SenTestingKit.framework */,
+				D2B06D6516E371310072E4CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B06D6516E371310072E4CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D6616E371310072E4CD /* AppKit.framework */,
+				D2B06D6716E371310072E4CD /* CoreData.framework */,
+				D2B06D6816E371310072E4CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D2B06D6916E371310072E4CD /* iRest */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D7516E371310072E4CD /* AIRAppDelegate.h */,
+				D2B06D7616E371310072E4CD /* AIRAppDelegate.m */,
+				D2B06D7816E371310072E4CD /* MainMenu.xib */,
+				D2B06D6A16E371310072E4CD /* Supporting Files */,
+			);
+			path = iRest;
+			sourceTree = "<group>";
+		};
+		D2B06D6A16E371310072E4CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D6B16E371310072E4CD /* iRest-Info.plist */,
+				D2B06D6C16E371310072E4CD /* InfoPlist.strings */,
+				D2B06D6F16E371310072E4CD /* main.m */,
+				D2B06D7116E371310072E4CD /* iRest-Prefix.pch */,
+				D2B06D7216E371310072E4CD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B06D8616E371310072E4CD /* iRestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D8C16E371310072E4CD /* iRestTests.h */,
+				D2B06D8D16E371310072E4CD /* iRestTests.m */,
+				D2B06D8716E371310072E4CD /* Supporting Files */,
+			);
+			path = iRestTests;
+			sourceTree = "<group>";
+		};
+		D2B06D8716E371310072E4CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B06D8816E371310072E4CD /* iRestTests-Info.plist */,
+				D2B06D8916E371310072E4CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B06D5F16E371310072E4CD /* iRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B06D9116E371310072E4CD /* Build configuration list for PBXNativeTarget "iRest" */;
+			buildPhases = (
+				D2B06D5C16E371310072E4CD /* Sources */,
+				D2B06D5D16E371310072E4CD /* Frameworks */,
+				D2B06D5E16E371310072E4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRest;
+			productName = iRest;
+			productReference = D2B06D6016E371310072E4CD /* iRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B06D7F16E371310072E4CD /* iRestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B06D9416E371310072E4CD /* Build configuration list for PBXNativeTarget "iRestTests" */;
+			buildPhases = (
+				D2B06D7B16E371310072E4CD /* Sources */,
+				D2B06D7C16E371310072E4CD /* Frameworks */,
+				D2B06D7D16E371310072E4CD /* Resources */,
+				D2B06D7E16E371310072E4CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B06D8516E371310072E4CD /* PBXTargetDependency */,
+			);
+			name = iRestTests;
+			productName = iRestTests;
+			productReference = D2B06D8016E371310072E4CD /* iRestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B06D5816E371310072E4CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AIR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Acani;
+			};
+			buildConfigurationList = D2B06D5B16E371310072E4CD /* Build configuration list for PBXProject "iRest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2B06D5716E371310072E4CD;
+			productRefGroup = D2B06D6116E371310072E4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B06D5F16E371310072E4CD /* iRest */,
+				D2B06D7F16E371310072E4CD /* iRestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B06D5E16E371310072E4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D6E16E371310072E4CD /* InfoPlist.strings in Resources */,
+				D2B06D7416E371310072E4CD /* Credits.rtf in Resources */,
+				D2B06D7A16E371310072E4CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B06D7D16E371310072E4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D8B16E371310072E4CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2B06D7E16E371310072E4CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B06D5C16E371310072E4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D7016E371310072E4CD /* main.m in Sources */,
+				D2B06D7716E371310072E4CD /* AIRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B06D7B16E371310072E4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06D8E16E371310072E4CD /* iRestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B06D8516E371310072E4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B06D5F16E371310072E4CD /* iRest */;
+			targetProxy = D2B06D8416E371310072E4CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2B06D6C16E371310072E4CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B06D6D16E371310072E4CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2B06D7216E371310072E4CD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B06D7316E371310072E4CD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D2B06D7816E371310072E4CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B06D7916E371310072E4CD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D2B06D8916E371310072E4CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B06D8A16E371310072E4CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B06D8F16E371310072E4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2B06D9016E371310072E4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2B06D9216E371310072E4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRest/iRest-Prefix.pch";
+				INFOPLIST_FILE = "iRest/iRest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2B06D9316E371310072E4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRest/iRest-Prefix.pch";
+				INFOPLIST_FILE = "iRest/iRest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2B06D9516E371310072E4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRest.app/Contents/MacOS/iRest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRest/iRest-Prefix.pch";
+				INFOPLIST_FILE = "iRestTests/iRestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D2B06D9616E371310072E4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iRest.app/Contents/MacOS/iRest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRest/iRest-Prefix.pch";
+				INFOPLIST_FILE = "iRestTests/iRestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B06D5B16E371310072E4CD /* Build configuration list for PBXProject "iRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B06D8F16E371310072E4CD /* Debug */,
+				D2B06D9016E371310072E4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B06D9116E371310072E4CD /* Build configuration list for PBXNativeTarget "iRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B06D9216E371310072E4CD /* Debug */,
+				D2B06D9316E371310072E4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2B06D9416E371310072E4CD /* Build configuration list for PBXNativeTarget "iRestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B06D9516E371310072E4CD /* Debug */,
+				D2B06D9616E371310072E4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B06D5816E371310072E4CD /* Project object */;
+}
